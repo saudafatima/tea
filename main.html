@@ -1,69 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>tea</title>
-        <style>
-        a:link{
-            color: aqua;
-            text-decoration: none;
-            background-color:black;
-            padding:15px 25px ;
-            text-align: center;
-            display: inline-block;
+    <title>form</title>
+    <style>
+        input{
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid black;
+            border-radius: 5px;
         }
-        a:visited{
-            color: pink;
-            background-color:maroon;
-            padding:15px 25px ;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-        a:hover{
-            color:white;
-        }
-        a:active{
-            color:deeppink;
-        }
-        img{
-            width: 200px;
-            height: 100px;
+        body{
+            background-color: pink;
         }
     </style>
-    <link rel="stylesheet" href="class.css">
 </head>
 <body>
+<form style="text-align: center;background-color: palevioletred;border: 3px solid black; width:30%;margin: 400px; border-radius: 10px; padding: 10px;">
+<!--  <label for="lname"> last name :</label>-->
+<!--  <input type="text" id="lname" name="fname"><br>-->
+<!-- username:<input type="text" name="username"><br>-->
+<!-- password:<input type="password" name="password"><br>-->
+<!--&lt;!&ndash;<input type="radio">&ndash;&gt;-->
+<label for="name" >user name: </label>
+<input type="text"  id="name"  value="CAPITAL LETTER"><br>
+<label for="pass"> password</label>
+<input type="password" id="pass"><br>
+<label for="html ">html</label>
+<input type="checkbox" id="html " name="html">  <br>
+<label for="java ">java</label>
+<input type="checkbox" id="java " name="java">  <br>
+<label for="css ">css</label>
+<input type="radio" id="css " name="css">  <br>
+<label for="python ">python</label>
+<input type="radio" id="python " name="html">  <br>
+<label for="scooty">choose</label><br>
+<select id="scooty" name="scooty" multiple>
+    <option value="ola"> ola </option>
+<option value="ather"> ather</option>
+    <option value="burgman"> burgman</option></select> <br>
+<input type="button" value="submit">
+    <input list="vehical" name="vehical">
+    <datalist id="vehical">
+        <option value="car">
+        <option value="train">
+        <option value="bike">
+        <option value="scooty">
+    </datalist>
+<?php
+echo"hi";
+?>
 
-<a href="https://www.pinterest.com/"target="_blank">snapchat</a>
-<a href="https://www.instagram.com/ "> insta</a>
-<h2><a href="#c1"> jump to chapter 1</a> </h2>
-<pre>
-s
-d
-d
-f
-rg
-tg
-t
-t5
-gt5
+</form>
 
-</pre>
-<img src="Wow-gif.gif" >
-<img src="cup.avif" style="float:initial">
-<img src="images.gif" style="float: right">
-<img src="bird-wings.gif">
-<a href="https://imgur.com/gallery/doraemon-JB1wANh"><img src="dora.gif" style="float:right"></a>
-    <img src="https://i.imgur.com/j5pI2UE.gif"  style="float:left">
-
-
-<h2 id="c1"> chapter 1</h2>
-<img src="book.png" alt="books"  width="512" height="512" usemap="#bookmap">
-<map name="bookmap">
-<area shape="rect" coords="350,40,450,140" alt="coffee" href="https://en.wikipedia.org/wiki/Coffee">
-<area shape="rect" coords="80,180,320,400"  alt="books" href="https://en.wikipedia.org/wiki/Book">
-</map>
 </body>
-
 </html>
